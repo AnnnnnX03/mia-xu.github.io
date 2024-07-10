@@ -1,7 +1,7 @@
 import dayjs from 'dayjs'
 
 export function parseTitleFromContentList(oldTitle: string) {
-  return `第${oldTitle.split(' ')[0]}期 - ${oldTitle.split(' ')[1]}`
+  return `BLOG ${oldTitle.split(' ')[0]} - ${oldTitle.split(' ')[1]}`
 }
 
 // 转化文章路由地址

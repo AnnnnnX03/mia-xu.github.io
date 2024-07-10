@@ -1,5 +1,5 @@
 export interface IDashboardNav {
-  name: '总览' | '首页' | '博客' | '项目'
+  name: 'SUMMARY' | 'HOME' | 'BLOG' | 'PROJECT'
   path: string
   icon: string
 }
